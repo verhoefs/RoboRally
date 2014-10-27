@@ -38,7 +38,11 @@ namespace roborally
 
 			inlogbutton.Click += delegate { 
 
-				StartActivity(typeof(SpelMenu));
+				if (emailtext.Text != emailtext.Hint)
+					StartActivity(typeof(SpelMenu));
+				else 
+					//emailtext.HintTextColors (Color.Red);
+					emailtext.Hint = "Geef uw e-mail adres op!";
 			};
 		}
 	}

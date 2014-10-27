@@ -1,1 +1,1 @@
-<resources><string name="hello">Hello World, Click Me!</string><string name="app_name">roborally</string></resources>
+<resources><string name="hello">Hello World, Click Me!</string><string name="app_name">roborally</string><color name="black">#000000</color><color name="errorColor">#f00</color><color name="Orange">#FF9900</color></resources>
