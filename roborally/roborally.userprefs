@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.Workbench ActiveDocument="roborally/profiel.cs">
@@ -10,3 +11,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
+=======
+﻿<Properties GitUserInfo="UsingGIT" />
+>>>>>>> Stash
