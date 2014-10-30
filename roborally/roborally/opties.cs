@@ -19,11 +19,15 @@ namespace roborally
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
+<<<<<<< HEAD
 			if (true) {
 				
 			} else {
 				
 			}
+=======
+
+>>>>>>> Stash
 			// Create your application here
 		}
 	}

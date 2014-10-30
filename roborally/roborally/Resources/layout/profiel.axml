@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:configChanges="orientation"
+    android:screenOrientation="portrait"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:orientation="vertical">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:layout_margin="0dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:orientation="vertical">
+        <TextView
+            android:text="Larry Page"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_gravity="top"
+            android:capitalize="words"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:layout_marginTop="30dp" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_margin="0dp"
+            android:layout_gravity="center"
+            android:background="#000000"
+            android:padding="4dp" />
+        <Button
+            android:text="Pas gebruikersnaam aan"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/button1"
+            android:layout_gravity="center" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1"
+            android:hint="Geef hier de nieuwe naam"
+            android:gravity="center"
+            android:visibility="gone" />
+        <Button
+            android:text="Pas wachtwoord aan"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/button3"
+            android:layout_gravity="center" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:hint="Geef hier je nieuwe wachtwoord"
+            android:gravity="center"
+            android:visibility="gone" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:hint="Herhaal dit wachtwoord"
+            android:gravity="center"
+            android:visibility="gone" />
+        <Button
+            android:text="Pas profielfoto aan"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/button2"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</RelativeLayout>

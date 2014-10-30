@@ -82,6 +82,7 @@
     <AndroidResource Include="Resources\drawable\Bgameinfo.png" />
     <AndroidResource Include="Resources\drawable\roboBackground.png" />
     <AndroidResource Include="Resources\drawable\LarryPage.png" />
+    <AndroidResource Include="Resources\layout\profiel.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
