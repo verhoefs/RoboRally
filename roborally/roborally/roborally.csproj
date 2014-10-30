@@ -54,6 +54,7 @@
     <Compile Include="GameInfo.cs" />
     <Compile Include="profiel.cs" />
     <Compile Include="opties.cs" />
+    <Compile Include="Resources\opties.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
