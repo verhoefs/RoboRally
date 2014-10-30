@@ -53,13 +53,12 @@
     <Compile Include="MenuToeschouwer.cs" />
     <Compile Include="GameInfo.cs" />
     <Compile Include="profiel.cs" />
-    <Compile Include="opties.cs" />
-    <Compile Include="Resources\opties.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <None Include="opties.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -80,10 +79,7 @@
     <AndroidResource Include="Resources\drawable\eyepatch.png" />
     <AndroidResource Include="Resources\drawable\robotmenu.png" />
     <AndroidResource Include="Resources\drawable\Bnewgame.png" />
-    <AndroidResource Include="Resources\drawable\Bopties.png" />
-    <AndroidResource Include="Resources\drawable\Bprofiel.png" />
     <AndroidResource Include="Resources\drawable\Bgameinfo.png" />
-    <AndroidResource Include="Resources\layout\profiel.axml" />
     <AndroidResource Include="Resources\drawable\roboBackground.png" />
     <AndroidResource Include="Resources\drawable\LarryPage.png" />
   </ItemGroup>
