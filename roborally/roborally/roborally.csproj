@@ -51,8 +51,9 @@
     <Compile Include="NieuwSpelMenu.cs" />
     <Compile Include="MenuVrienden.cs" />
     <Compile Include="MenuToeschouwer.cs" />
-    <Compile Include="MenuScores.cs" />
     <Compile Include="GameInfo.cs" />
+    <Compile Include="profiel.cs" />
+    <Compile Include="opties.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -68,10 +69,7 @@
     <AndroidResource Include="Resources\drawable\facebook.png" />
     <AndroidResource Include="Resources\layout\Menu.axml" />
     <AndroidResource Include="Resources\drawable\Btoeschouwer.png" />
-    <AndroidResource Include="Resources\drawable\Bnewgame.png" />
     <AndroidResource Include="Resources\drawable\BVrienden.png" />
-    <AndroidResource Include="Resources\drawable\Bscores.png" />
-    <AndroidResource Include="Resources\drawable\Bgameinfo.png" />
     <AndroidResource Include="Resources\layout\NieuwSpelMenu.axml" />
     <AndroidResource Include="Resources\drawable\singleplayer.png" />
     <AndroidResource Include="Resources\drawable\newgame.png" />
@@ -80,6 +78,13 @@
     <AndroidResource Include="Resources\drawable\robot.png" />
     <AndroidResource Include="Resources\drawable\eyepatch.png" />
     <AndroidResource Include="Resources\drawable\robotmenu.png" />
+    <AndroidResource Include="Resources\drawable\Bnewgame.png" />
+    <AndroidResource Include="Resources\drawable\Bopties.png" />
+    <AndroidResource Include="Resources\drawable\Bprofiel.png" />
+    <AndroidResource Include="Resources\drawable\Bgameinfo.png" />
+    <AndroidResource Include="Resources\layout\profiel.axml" />
+    <AndroidResource Include="Resources\drawable\roboBackground.png" />
+    <AndroidResource Include="Resources\drawable\LarryPage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

@@ -3,5 +3,6 @@ roborally.SpelMenu;roborally.SpelMenu
 roborally.NieuwSpelMenu;roborally.NieuwSpelMenu
 roborally.MenuVrienden;roborally.MenuVrienden
 roborally.MenuToeschouwer;roborally.MenuToeschouwer
-roborally.MenuScores;roborally.MenuScores
 roborally.GameInfo;roborally.GameInfo
+roborally.profiel;roborally.profiel
+roborally.opties;roborally.opties

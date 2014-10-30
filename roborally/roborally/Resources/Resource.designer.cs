@@ -24,6 +24,10 @@ namespace roborally
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -61,6 +65,16 @@ namespace roborally
 		
 		public partial class Drawable
 		{
+			public static int LarryPage {
+				get;
+				set;
+			}
+
+			public static int roboBackground {
+				get;
+				set;
+			}
+
 			
 			// aapt resource value: 0x7f020000
 			public const int achtergrond2 = 2130837504;
@@ -75,37 +89,46 @@ namespace roborally
 			public const int Bnewgame = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int Bscores = 2130837508;
+			public const int Bopties = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int Btoeschouwer = 2130837509;
+			public const int Bprofiel = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int BVrienden = 2130837510;
+			public const int Btoeschouwer = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int eyepatch = 2130837511;
+			public const int BVrienden = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int facebook = 2130837512;
+			public const int eyepatch = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int Icon = 2130837513;
+			public const int facebook = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int newgame = 2130837514;
+			public const int Icon = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int onlineaGame = 2130837515;
+			public const int newgame = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int robot = 2130837516;
-			
+			public const int onlineaGame = 2130837516;
+
 			// aapt resource value: 0x7f02000d
 			public const int robotmenu = 2130837517;
 			
-			// aapt resource value: 0x7f02000e
-			public const int singleplayer = 2130837518;
+			// aapt resource value: 0x7f02000d
+			public const int robot = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int robotmenu = 2130837519;
+			
+			// aapt resource value: 0x7f02000g
+			public const int singleplayer = 2130837520;
+
+			// aapt resource value: 0x7f02000h
+			public const int LarryPage = 2130837521;
 			
 			static Drawable()
 			{
@@ -150,6 +173,9 @@ namespace roborally
 			// aapt resource value: 0x7f06000e
 			public const int imageButton5 = 2131099662;
 			
+			// aapt resource value: 0x7f06000f
+			public const int imageButton6 = 2131099663;
+			
 			// aapt resource value: 0x7f060001
 			public const int imageView1 = 2131099649;
 			
@@ -189,6 +215,9 @@ namespace roborally
 			
 			// aapt resource value: 0x7f030003
 			public const int NieuwSpelMenu = 2130903043;
+
+			// aapt resource value: 0x7f030004
+			public const int profiel = 2130903044;
 			
 			static Layout()
 			{

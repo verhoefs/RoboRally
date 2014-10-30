@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imageButton1"
-            android:layout_marginTop="265.1dp" />
+            android:layout_marginTop="220dp" />
         <ImageButton
             android:src="@android:drawable/ic_menu_gallery"
             android:layout_width="match_parent"
@@ -51,5 +51,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imageButton5" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton6" />
     </LinearLayout>
 </RelativeLayout>

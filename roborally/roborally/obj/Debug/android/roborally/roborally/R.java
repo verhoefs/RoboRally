@@ -20,17 +20,18 @@ public final class R {
         public static final int background=0x7f020001;
         public static final int bgameinfo=0x7f020002;
         public static final int bnewgame=0x7f020003;
-        public static final int bscores=0x7f020004;
-        public static final int btoeschouwer=0x7f020005;
-        public static final int bvrienden=0x7f020006;
-        public static final int eyepatch=0x7f020007;
-        public static final int facebook=0x7f020008;
-        public static final int icon=0x7f020009;
-        public static final int newgame=0x7f02000a;
-        public static final int onlineagame=0x7f02000b;
-        public static final int robot=0x7f02000c;
-        public static final int robotmenu=0x7f02000d;
-        public static final int singleplayer=0x7f02000e;
+        public static final int bopties=0x7f020004;
+        public static final int bprofiel=0x7f020005;
+        public static final int btoeschouwer=0x7f020006;
+        public static final int bvrienden=0x7f020007;
+        public static final int eyepatch=0x7f020008;
+        public static final int facebook=0x7f020009;
+        public static final int icon=0x7f02000a;
+        public static final int newgame=0x7f02000b;
+        public static final int onlineagame=0x7f02000c;
+        public static final int robot=0x7f02000d;
+        public static final int robotmenu=0x7f02000e;
+        public static final int singleplayer=0x7f02000f;
     }
     public static final class id {
         public static final int button1=0x7f060004;
@@ -43,6 +44,7 @@ public final class R {
         public static final int imageButton3=0x7f06000c;
         public static final int imageButton4=0x7f06000d;
         public static final int imageButton5=0x7f06000e;
+        public static final int imageButton6=0x7f06000f;
         public static final int imageView1=0x7f060001;
         public static final int imageView2=0x7f060003;
         public static final int mainlayout=0x7f060000;

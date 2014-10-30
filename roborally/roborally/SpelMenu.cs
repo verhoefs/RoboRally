@@ -28,14 +28,15 @@ namespace roborally
 			ImageButton imgbutton3 = FindViewById<ImageButton> (Resource.Id.imageButton3);
 			ImageButton imgbutton4 = FindViewById<ImageButton> (Resource.Id.imageButton4);
 			ImageButton imgbutton5 = FindViewById<ImageButton> (Resource.Id.imageButton5);
-
+			ImageButton imgbutton6 = FindViewById<ImageButton> (Resource.Id.imageButton6);
 
 			imgview.SetImageResource (Resource.Drawable.robotmenu);
 			imgbutton1.SetImageResource (Resource.Drawable.Bnewgame);
 			imgbutton2.SetImageResource (Resource.Drawable.BVrienden);
-			imgbutton3.SetImageResource (Resource.Drawable.Bscores);
-			imgbutton4.SetImageResource (Resource.Drawable.Btoeschouwer);
-			imgbutton5.SetImageResource (Resource.Drawable.Bgameinfo);
+			imgbutton3.SetImageResource (Resource.Drawable.Btoeschouwer);
+			imgbutton4.SetImageResource (Resource.Drawable.Bprofiel);
+			imgbutton5.SetImageResource (Resource.Drawable.Bopties);
+			imgbutton6.SetImageResource (Resource.Drawable.Bgameinfo);
 
 
 
@@ -56,12 +57,17 @@ namespace roborally
 
 			imgbutton4.Click += delegate { 
 
-				StartActivity(typeof(MenuScores));
+				StartActivity(typeof(profiel));
 			};
 
 			imgbutton5.Click += delegate { 
 
-				StartActivity(typeof(GameInfo));
+				StartActivity (typeof(opties));
+			};
+
+			imgbutton6.Click += delegate { 
+
+					StartActivity(typeof(GameInfo));
 			};
 		}
 	}
